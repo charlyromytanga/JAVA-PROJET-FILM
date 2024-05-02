@@ -1,0 +1,16 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/charlyromytanga/PROJET_FILMS_JAVA.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main_local"]
+	remote = origin
+	merge = refs/heads/main
+	rebase = true
+[branch "origin/main"]
+	remote = origin
+	merge = refs/heads/main
+	rebase = false
